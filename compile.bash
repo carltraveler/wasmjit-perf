@@ -1,3 +1,4 @@
+sudo apt install g++
 srcfile=$1
 dir=$2
 [[ "$srcfile" == "" ]] && srcfile="eosvm_jit.cpp"
