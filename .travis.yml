@@ -1,0 +1,11 @@
+language: rust
+rust:
+  - nightly
+sudo: false
+cache: cargo
+
+before_script:
+- rustup component add rustfmt
+script:
+  - bash ./.travis.build.sh
+
