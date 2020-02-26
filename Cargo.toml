@@ -1,0 +1,18 @@
+[package]
+name = "wasmjit-perf"
+version = "0.1.0"
+authors = ["chenglin <chenglin@onchain.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "wasmjit-perf"
+path = "src/main.rs"
+
+[dependencies]
+time = "0.2.6"
+cranelift-wasm = "0.49.0"
+ontio-wasmjit = {git="https://github.com/ontio/ontio-wasmjit"}
+ontio-wasmjit-runtime = {git="https://github.com/ontio/ontio-wasmjit"}
+ontio-wasmjit-environ = {git="https://github.com/ontio/ontio-wasmjit"}
+wasmjit-capi = {git="https://github.com/ontio/ontio-wasmjit"}
