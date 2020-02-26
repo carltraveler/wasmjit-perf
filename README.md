@@ -1,4 +1,4 @@
-#### wasmjit-perf
+#### wasmjit-perf [![Build Status](https://travis-ci.com/carltraveler/wasmjit-perf.svg?branch=master)](https://travis-ci.com/carltraveler/wasmjit-perf)
 
 ​	perf the  jit performance of eos-vm and ontio-wasmjit
 
